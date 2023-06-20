@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <%- include('./partials/head') %>
+  <body>
+  <%- include('./partials/navbar') %>
+
+	<div class="">
+		<div class="">
+			<div class="">
+				<h2 class="">Você está editando: <i><%= productToEdit.name %></i></h2>
+			</div>
+		</div>
+		<div class="">
+			<form action="/produtos/edit/<%= productToEdit.id %>?_method=PUT" method="POST" enctype="multipart/form-data" >
+				<div class="">
+					<div class="">
+						<label for="name" class="form-label">Nome do produto:</label>
+						<input type="text" id="name" name="name" placeholder="Ej: Chinelos Reebok" class="form-input" value="<%= productToEdit.name %>">
+					</div>
+					<div class="">
+						<label for="price" class="form-label">Preço do produto:</label>
+						<input type="text" id="price" name="price" placeholder="Ej: 5678" class="form-input" value="<%= productToEdit.price %>"
+					</div>
+					<!-- <div class="col-12 col-md-6">
+						<label for="discount" class="form-label">Desconto:</label>
+						<input type="text" id="discount" name="discount" placeholder="Ej: 15" class="form-input" value="<%= productToEdit.discount %>">
+					</div> -->
+					<div class="">
+						<label for="category" class="form-label">Categoria:</label>
+						<select name="category" id="category" class="form-input">
+							<option value="">Escolhi</option>
+							<!-- <option value="in-sale" <% productToEdit.category == 'in-sale' ? 'selected' : ''%>>Em oferta</option> -->
+							<option value="visited" <% productToEdit.category == 'visited' ?  'selected' : '' %>>Últimos adicionados</option>
+						</select>
+					</div>
+					<div class="">
+						<label for="description" class="form-label">Descrição:</label>
+						<textarea name="description" id="description" class="form-input"><%= productToEdit.description %></textarea>
+					</div>
+					<div class="">
+						<label for="description" class="form-label">Imagem:</label>
+						<input type="file" name="image" id="image" class="form-input">
+					</div>
+					<div class="">
+						<button type="submit" class="buy-now-button">Salvar producto</button>
+					</div>
+				</div>
+			</form>
+		</div>
+
+
+<%- include('./partials/footet.ejs') %>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="../scripts/getProdutos.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <%- include('./partials/head') %>
+  <body>
+  <%- include('./partials/navbar') %>
+  <main>
+    <section class="produtos">
+        <div id="products" class="baixos">
+
+          <% produtos.forEach(function(prod) { %>
+          
+            <div class="instrumentos">
+              
+              <img id="imgInstr<%= prod.id %>" src="<%= prod.cores[0].img %>">
+              <div>
+              <% prod.cores.forEach(function(m) { %>
+              
+                <input type="button" id="btnColor" class="btnColors" style='background-color: <%= m.cor %>' onmouseover='modifyImg("<%= m.img%>","<%= prod.id%>")'>
+  
+                <% }) %> 
+              </div>
+            <h2><%= prod.modelo %></h2>
+            <h4><%= prod.descricao %> </h4>
+            <h4><%= prod.preco %></h4> 
+            
+              </div>
+              <% }) %>
+
+        </div>
+    </section>
+  </main>
+  
+  <%- include('./partials/footet.ejs') %>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="../scripts/getProdutos.js"></script>
+</body>
+</html>

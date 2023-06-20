@@ -1,0 +1,52 @@
+<header>
+  
+  <div class="cabecalho">
+    <img class="logo" src="/img/logo_jazz_bass.png" alt="logo">
+  </div>
+</header>
+<nav class="navbar navbar-expand-lg navbar-color">
+  <div class="container-fluid my-container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item px-5 fs-5">
+          <a class="nav-link mx-auto" style="width: 200%" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item dropdown px-5 fs-5">
+          <a class="nav-link dropdown-toggle" href="./shop.html" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Instrumentos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/produtos?categoria=1">Baixos</a></li>
+            <li><a class="dropdown-item" href="/produtos?categoria=2">Guitarras</a></li>
+            <li><a class="dropdown-item" href="/produtos?categoria=3">Violão</a></li>
+          </ul>
+        </li>
+        <li class="nav-item px-5 fs-5">
+          <a class="nav-link" href="/areadocliente">Área do Cliente</a>
+        </li>
+        <li class="nav-item">
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="icones-cabecalho">
+          <!-- Barra de pesquisa-->
+        
+          <div id="overlay" onclick="pesquisaToggle()"></div>
+          <div class="search">
+            <input type="text" id="pesq" name="pesq" placeholder="Digite aqui sua busca"> 
+           
+          </div>
+          <!-- <a id="show-or-hide"><i  class="bi bi-search px-2 fs-4"></i></a> -->
+          <i id="show-or-hide" class="bi bi-search px-2 fs-4"></i>
+
+    </a></i>
+    <a class="carrinho" href="/carrinho"><i class="bi bi-cart-fill px-2 fs-4"></i></a>
+    <a class="area-do-cliente" href="/areadoclienteLogin"><i class="bi bi-person-fill px-2 fs-4"></i></a>
+  </div>
+</nav>

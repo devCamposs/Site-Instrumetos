@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<%- include('./partials/head') %>
+
+<head>
+    <link rel="stylesheet" href="/css/checkout.css">
+</head>
+
+<body>
+    <%- include('./partials/navbar') %>
+    <main>
+        <section class="checkoutContainer">
+            <h1>Confira as informações e finalize sua compra</h1>
+            <div class="addressData">
+                <div>
+                    <h3>Endereço de entrega</h3>
+                    <div class="addressConfirm">
+                        <i class="bi bi-geo-alt"></i>
+                        <div class="addressComplete">
+                            <p>Rua 1, Numero: 2</p>
+                            <span>CEP: 00100-001, Ipiranga, São Paulo, SP</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">Alterar Endereço</a>
+
+            </div>
+            <div class="orderData">
+                <div class="orderComplete">
+                    <p>Produto</p>
+                    <span>R$ 1500,00</span>
+                </div>
+                <div class="orderComplete">
+                    <p>Frete</p>
+                    <span>R$ 35,00</span>
+                </div>
+                <div class="orderComplete">
+                    <p>Total</p>
+                    <span class="lastSpan">R$ 1535,00</span>
+                </div>
+            </div>
+            <button class="confirmButton">
+                Finalizar Compra
+            </button>
+        </section>
+
+    </main>
+
+
+
+    <%- include('./partials/footet.ejs') %>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

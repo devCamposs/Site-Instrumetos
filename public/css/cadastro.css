@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.login-content{
+    display: flex;
+    justify-content: center;
+}
+#login-title{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #e7dfd8;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.formulario-login{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color:#e7dfd8;
+    margin-top: 0px;
+}
+
+.formulario-login-content{
+    width: 30%;
+    margin-top: 0;
+    
+}
+.datas-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-top: 0;
+    
+}
+.botao-entrar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 20px;
+    align-items: center;
+    width: 90%;
+    
+}
+#email, #senha{
+    text-align: initial;
+
+}
+.novo-cliente .cadastre-se{
+    text-align: end;
+    text-decoration: none;
+    color:#e7dfd8;
+
+}
+.cadastre-se{
+    text-align: end;
+    text-decoration: none;
+    color:#e7dfd8;
+
+}
+.checkbox{
+    text-align: start;
+}
+
+.newsletter-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 20px;
+    margin-top: 0;
+}
+.checkbox{
+    margin-right: 10px;
+}
+#nome{
+    text-align: left;
+    margin-top: 10px;
+    
+}
+span .preencha-text{
+
+  
+}
+
+@media 

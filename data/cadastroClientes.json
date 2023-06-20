@@ -1,0 +1,32 @@
+[
+ {
+  "id": 1,
+  "nome": "Diogenes",
+  "email": "dio@gmail.com",
+  "password": "1234"
+ },
+ {
+  "id": 2,
+  "nome": "luciana",
+  "email": "COLCHEI@HOTMAIL.COM",
+  "password": "c vzvc"
+ },
+ {
+  "id": 3,
+  "nome": "luciana",
+  "email": "COLCHEI@HOTMAIL.COM",
+  "password": " gnxfn"
+ },
+ {
+  "id": 4,
+  "nome": "Monica",
+  "email": "monica@hotmail.com",
+  "password": "123456"
+ },
+ {
+  "id": 5,
+  "nome": "Monica",
+  "email": "monica@hotmail.com",
+  "password": "123456"
+ }
+]

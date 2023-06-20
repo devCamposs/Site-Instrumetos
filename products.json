@@ -1,0 +1,178 @@
+
+[
+    {
+      "id": 1,
+      "categoria": 1,
+      "modelo": "Sire V3",
+      "descricao": "lorem ipsum dolor sit amet",
+      "preco": 3400,
+      "cores": [
+        {
+          "id": 1,
+          "cor": "#CC9D0F ",
+          "img": "/img/Baixos/Sire Marcus Miller V3 2nd-amarelo.png"
+        },
+        {
+          "id": 2,
+          "cor": "#F7F0EE",
+          "img": "/img/Baixos/Sire Marcus Miller V3 2nd-branco.png"
+        },
+        {
+          "id": 3,
+          "cor": "#8B2808",
+          "img": "/img/Baixos/Sire Marcus Miller V3 2nd-sunburst.png"
+        }
+      ]
+      },
+    {
+      "id": 4,
+      "categoria": 1,
+      "modelo": "Sire V5",
+      "descricao": "lorem ipsum dolor sit amet",
+      "preco": 4800,
+      "cores": [
+        {
+          "id": 4,
+          "cor": "#EFD073",
+          "img": "/img/Baixos/Sire Marcus Miller V5-creme.png"
+        },
+        {
+          "id": 5,
+          "cor": "#966F33",
+          "img": "/img/Baixos/Sire Marcus Miller V5-Natural.png"
+        },
+        {
+          "id": 6,
+          "cor": "#6D5843",
+          "img": "/img/Baixos/Sire Marcus Miller V5-tobacco.png"
+        }
+      ]
+    },
+    {
+      "id":7,
+      "categoria": 1,
+      "modelo": "Sire V7",
+      "descricao": "lorem ipsum dolor sit amet",
+      "preco": 5200,
+      "cores": [
+        {
+          "id": 7,
+          "cor": "red",
+          "img": "/img/Baixos/Sire Marcus Miller V7 2nd-red.png"
+        },
+        {
+          "id": 8,
+          "cor": "brown",
+          "img": "/img/Baixos/Sire Marcus Miller V7 2nd-sunburst.png"
+        },
+        {
+          "id": 9,
+          "cor": "#A9CC8B ",
+          "img": "/img/Baixos/Sire Marcus Miller V7 2nd-verde.png"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "categoria": 2,
+      "modelo": "Larry Carlton H7",
+      "descricao": "lorem ipsum dolor sit amet",
+      "preco": 2800,
+      "cores": [
+        {
+          "id": 10,
+          "cor": "white",
+          "img": "/img/Guitarras/Sire Larry Carlton H7-branco.png"
+        },
+        {
+          "id": 11,
+          "cor": "black",
+          "img": "/img/Guitarras/Sire Larry Carlton H7-preto.png"
+        },
+        {
+          "id": 12,
+          "cor": "#9C2152",
+          "img": "/img/Guitarras/Sire Larry Carlton H7-vermelho.png"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "categoria": 2,
+      "modelo": "Larry Carlton L7",
+      "descricao": "lorem ipsum dolor sit amet",
+      "preco": 3000,
+      "cores": [
+        {
+          "id": 13,
+          "cor": "#E2BE1B",
+          "img": "/img/Guitarras/Sire Larry Carlton L7-amarela.png"
+        
+        },
+        {
+          "id": 14,
+          "cor": "#3F738F ",
+          "img": "/img/Guitarras/Sire Larry Carlton L7-azul.png"
+        },
+        {
+          "id": 15,
+          "cor": "branco",
+          "img": "/img/Guitarras/Sire Larry Carlton L7-branco.png"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "categoria": 2,
+      "modelo": "Larry Carlton S7",
+      "descricao": "lorem ipsum dolor sit amet",
+      "preco": 4500,
+      "cores": [
+        {
+          "id": 16,
+          "cor": "brown",
+          "img": "/img/Guitarras/Sire Larry Carlton S7 Vintage-sunburst.png"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "categoria": 2,
+      "modelo": "Larry Carlton S7",
+      "descricao": "lorem ipsum dolor sit amet",
+      "preco": 4500,
+      "cores": [
+        {
+          "id": 22,
+          "cor": "branco",
+          "img": "/img/Guitarras/Sire Larry Carlton T7-branco.png"
+        },
+        {
+          "id": 23,
+          "cor": "#ed8932",
+          "img": "/img/Guitarras/Sire Larry Carlton T7-amarelo.png"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "categoria": 3,
+      "modelo": "Larry Carlton A3",
+      "descricao": "lorem ipsum dolor sit amet",
+      "preco": 2900,
+      "cores": [
+        {
+          "id": 19,
+          "cor": "#edb232",
+          "img": "/img/Violões/Sire Larry Carlton A3-D-sunburst.png"
+        },
+        {
+          "id": 20,
+          "cor": "#ede4c2",
+          "img": "/img/Violões/Sire Larry Carlton A3-natural.png"
+        }
+      ]
+    }
+]
+
+
